@@ -2,7 +2,7 @@
 
 /**
 * _strlen - return the length of a string
-* @s: string to check
+* @s: string to evaluate
 *
 * Return: the length of the string
 */
@@ -13,10 +13,11 @@ int _strlen(char *s)
 
 	i = 0;
 
-	while (s[i] 1= '\0')
+	while (s[i] != '\0')
 	{
 		i++;
 	}
 
 	return (i);
+
 }
